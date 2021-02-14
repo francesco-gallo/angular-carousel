@@ -1,0 +1,14 @@
+import { Component, Input } from '@angular/core';
+export class SingleCardComponent {
+}
+SingleCardComponent.decorators = [
+    { type: Component, args: [{
+                selector: 'lib-single-card',
+                template: "<div class=\"container\">\n    <div class=\"upper\">\n        <img class=\"image\" src={{model.image}}/>\n        <span class=\"desc left\">\n            {{model.type}}\n        </span>\n        <span *ngIf=\"model.duration\" class=\"desc right\">\n            {{model.duration | duration}}\n        </span>\n    </div>\n    <div class=\"lower\">\n        <span class=\"title\">{{model.title}}</span>\n        <span class=\"subtitle\">{{model.subtitle}}</span>\n    </div>\n</div>",
+                styles: [".container{height:220px;width:200px}.container .upper{position:relative}.container .upper .image{height:100px;overflow:hidden;width:-webkit-max-content;width:max-content}.container .upper .desc{background-color:rgba(50,50,50,.8);bottom:4px;color:#fff;font-size:x-small;font-weight:700;padding:3px 5px;position:absolute}.container .upper .desc.left{left:0;text-transform:uppercase}.container .upper .desc.right{right:0}.container .lower{padding:10px}.container .lower .title{color:#346262;display:block;font-size:small;font-weight:700;word-break:normal}.container .lower .subtitle{color:#6b7373;display:block;font-size:x-small;font-weight:700;margin-top:10px;word-break:normal}"]
+            },] }
+];
+SingleCardComponent.propDecorators = {
+    model: [{ type: Input }]
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2luZ2xlLWNhcmQuY29tcG9uZW50LmpzIiwic291cmNlUm9vdCI6Ii9ob21lL2ZyYW5jZXNjby9Qcm9qZWN0cy9hbmd1bGFyLWNhcm91c2VsL3Byb2plY3RzL3NpbXBsZS1jYXJvdXNlbC9zcmMvIiwic291cmNlcyI6WyJsaWIvY29tcG9uZW50cy9jYXJkcy9zaW5nbGUtY2FyZC9zaW5nbGUtY2FyZC5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFNBQVMsRUFBRSxLQUFLLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFTakQsTUFBTSxPQUFPLG1CQUFtQjs7O1lBTC9CLFNBQVMsU0FBQztnQkFDVCxRQUFRLEVBQUUsaUJBQWlCO2dCQUMzQiw0ZUFBMkM7O2FBRTVDOzs7b0JBR0UsS0FBSyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IENvbXBvbmVudCwgSW5wdXQgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcbmltcG9ydCB7IENhcmRNb2RlbCB9IGZyb20gJy4uLy4uLy4uL21vZGVscy9jYXJkLW1vZGVsJztcbmltcG9ydCB7IEJhc2VDYXJkIH0gZnJvbSAnLi4vYmFzZS1jYXJkJztcblxuQENvbXBvbmVudCh7XG4gIHNlbGVjdG9yOiAnbGliLXNpbmdsZS1jYXJkJyxcbiAgdGVtcGxhdGVVcmw6ICcuL3NpbmdsZS1jYXJkLmNvbXBvbmVudC5odG1sJyxcbiAgc3R5bGVVcmxzOiBbJy4vc2luZ2xlLWNhcmQuY29tcG9uZW50LnNjc3MnXVxufSlcbmV4cG9ydCBjbGFzcyBTaW5nbGVDYXJkQ29tcG9uZW50IGltcGxlbWVudHMgQmFzZUNhcmQge1xuXG4gIEBJbnB1dCgpXG4gIHB1YmxpYyBtb2RlbDogQ2FyZE1vZGVsO1xuXG59XG4iXX0=

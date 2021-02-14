@@ -1,0 +1,1 @@
+{"version":3,"file":"generic-card.component.d.ts","sources":["generic-card.component.d.ts"],"names":[],"mappings":"AAAA;AACA;;AACA;AACA;AACA;;;AACA","sourcesContent":["import { Observable } from 'rxjs';\nimport { CardModel } from '../../../models/card-model';\nexport declare class GenericCardComponent {\n    static width: number;\n    model$: Observable<CardModel>;\n}\n"]}

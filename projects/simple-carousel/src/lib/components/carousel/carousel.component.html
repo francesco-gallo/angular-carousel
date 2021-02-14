@@ -1,0 +1,28 @@
+<div class="carousel">
+    <div class="header">
+        <div class="icon" *ngIf="icon">
+            <img class="icon-image" src={{icon}} />
+        </div>
+        <div class="description">
+            <span class="title">{{title}}</span>
+            <span class="subtitle">{{subtitle}}</span>
+        </div>
+    </div>
+
+    <div class="wrapper" (mouseenter)="onMouseInside(true)" (mouseleave)="onMouseInside(false)">
+        <div #scrollable class="container">
+            <template #container></template>
+        </div>
+
+        <div *ngIf="mouseInside && currentIndex>0" class="prev" (click)="scrollCarousel(-1)">
+            <div class="scroll-img">
+                <span><</span>
+            </div>
+        </div>
+        <div class="next" *ngIf="mouseInside" (click)="scrollCarousel(1)">
+            <div class="scroll-img">
+                <span class="">></span>
+            </div>
+        </div>
+    </div>
+</div>

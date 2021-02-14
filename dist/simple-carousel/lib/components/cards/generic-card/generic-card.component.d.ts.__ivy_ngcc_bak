@@ -1,0 +1,6 @@
+import { Observable } from 'rxjs';
+import { CardModel } from '../../../models/card-model';
+export declare class GenericCardComponent {
+    static width: number;
+    model$: Observable<CardModel>;
+}

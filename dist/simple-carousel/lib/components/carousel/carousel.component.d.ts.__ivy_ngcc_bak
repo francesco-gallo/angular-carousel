@@ -1,0 +1,29 @@
+import { ComponentFactoryResolver, OnInit } from '@angular/core';
+import { CardModel } from '../../models/card-model';
+export declare class CarouselComponent implements OnInit {
+    private resolver;
+    title: string;
+    subtitle: string;
+    icon: string;
+    fetchCards: (chunkSize: number) => Promise<CardModel[]>;
+    currentIndex: number;
+    mouseInside: boolean;
+    cardModels: CardModel[];
+    private container;
+    private scrollable;
+    private windowSize;
+    private chunkSize;
+    private cardRefs;
+    private cardWidth;
+    private pendingLoadings;
+    private init;
+    constructor(resolver: ComponentFactoryResolver);
+    ngOnInit(): void;
+    scrollCarousel(count: number): void;
+    conditionalFetchData(): void;
+    onMouseInside(inside: boolean): void;
+    private fetchData;
+    private refreshCardInstances;
+    private refreshWindowSize;
+    private refreshCardModels;
+}

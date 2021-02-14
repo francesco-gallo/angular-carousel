@@ -1,0 +1,6 @@
+export var cardCardinality;
+(function (cardCardinality) {
+    cardCardinality["single"] = "single";
+    cardCardinality["collection"] = "collection";
+})(cardCardinality || (cardCardinality = {}));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY2FyZC1jYXJkaW5hbGl0eS5qcyIsInNvdXJjZVJvb3QiOiIvaG9tZS9mcmFuY2VzY28vUHJvamVjdHMvYW5ndWxhci1jYXJvdXNlbC9wcm9qZWN0cy9zaW1wbGUtY2Fyb3VzZWwvc3JjLyIsInNvdXJjZXMiOlsibGliL21vZGVscy9jYXJkLWNhcmRpbmFsaXR5LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLE1BQU0sQ0FBTixJQUFZLGVBR1g7QUFIRCxXQUFZLGVBQWU7SUFDdkIsb0NBQWlCLENBQUE7SUFDakIsNENBQXlCLENBQUE7QUFDN0IsQ0FBQyxFQUhXLGVBQWUsS0FBZixlQUFlLFFBRzFCIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGVudW0gY2FyZENhcmRpbmFsaXR5IHtcbiAgICBzaW5nbGUgPSBcInNpbmdsZVwiLFxuICAgIGNvbGxlY3Rpb24gPSBcImNvbGxlY3Rpb25cIlxufSJdfQ==

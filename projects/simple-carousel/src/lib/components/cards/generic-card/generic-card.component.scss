@@ -1,0 +1,10 @@
+@import '../../../assets/styles.scss';
+
+.outer-card {
+    padding: 10px;
+}
+
+.card {
+    background-color: $card-color;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

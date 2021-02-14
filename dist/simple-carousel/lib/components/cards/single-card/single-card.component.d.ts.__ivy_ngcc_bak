@@ -1,0 +1,5 @@
+import { CardModel } from '../../../models/card-model';
+import { BaseCard } from '../base-card';
+export declare class SingleCardComponent implements BaseCard {
+    model: CardModel;
+}

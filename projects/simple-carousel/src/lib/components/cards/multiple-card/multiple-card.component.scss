@@ -1,0 +1,45 @@
+@import '../../../assets/styles.scss';
+
+.container {
+    position: relative;
+    height: $card-height;
+    width: $card-width;
+
+    .fake-card-1 {
+        position: absolute;
+        top: 0;
+        left: 2%;
+        width: 96%;
+        height: 101%;
+        background-color: $card-color;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+    .fake-card-2 {
+        position: absolute;
+        top: 0;
+        left: 4%;
+        width: 92%;
+        height: 102%;
+        background-color: $card-color;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+    .fake-card-3 {
+        position: absolute;
+        top: 0;
+        left: 6%;
+        width: 88%;
+        height: 103%;
+        background-color: $card-color;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .real-card {
+        height: 100%;
+        width: 100%;
+        background-color: $card-color;
+        position: absolute;
+        top: 0;
+    }
+}

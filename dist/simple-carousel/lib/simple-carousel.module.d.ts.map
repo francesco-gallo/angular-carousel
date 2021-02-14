@@ -1,0 +1,1 @@
+{"version":3,"file":"simple-carousel.module.d.ts","sources":["simple-carousel.module.d.ts"],"names":[],"mappings":";;;;;;;;AAAA;;;AACA","sourcesContent":["export declare class SimpleCarouselModule {\n}\n"]}

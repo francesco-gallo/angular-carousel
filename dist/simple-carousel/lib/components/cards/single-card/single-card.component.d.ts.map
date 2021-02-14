@@ -1,0 +1,1 @@
+{"version":3,"file":"single-card.component.d.ts","sources":["single-card.component.d.ts"],"names":[],"mappings":"AAAA;AACA;;AACA;AACA;;;AACA","sourcesContent":["import { CardModel } from '../../../models/card-model';\nimport { BaseCard } from '../base-card';\nexport declare class SingleCardComponent implements BaseCard {\n    model: CardModel;\n}\n"]}

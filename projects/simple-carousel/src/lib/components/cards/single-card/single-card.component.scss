@@ -1,0 +1,56 @@
+@import '../../../assets/styles.scss';
+
+.container {
+    height: $card-height;
+    width: $card-width;
+
+    .upper {
+        position: relative;
+
+        .image {
+            height: 100px;
+            width: max-content;
+            overflow: hidden;
+        }
+
+        .desc {
+            background-color: rgba(50, 50, 50, 0.8);
+            color: white;
+            position: absolute;
+            font-size: x-small;
+            bottom: 4px;
+            padding: 3px 5px;
+            font-weight: bold;
+        }
+
+        .desc.left {
+            text-transform: uppercase;
+            left:0px;
+        }
+        .desc.right {
+            right: 0px;
+
+        }
+    }
+
+    .lower {
+        padding: 10px;
+
+        .title {
+            display: block;
+            color: rgb(52, 98, 98);
+            font-size: small;
+            font-weight: bold;
+            word-break: normal;
+        }
+
+        .subtitle {
+            display: block;
+            margin-top: 10px;
+            color: rgb(107, 115, 115);
+            font-size: x-small;
+            font-weight: bold;
+            word-break: normal;
+        }
+    }
+}

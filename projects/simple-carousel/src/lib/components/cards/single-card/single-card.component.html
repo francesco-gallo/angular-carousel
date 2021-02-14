@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="upper">
+        <img class="image" src={{model.image}}/>
+        <span class="desc left">
+            {{model.type}}
+        </span>
+        <span *ngIf="model.duration" class="desc right">
+            {{model.duration | duration}}
+        </span>
+    </div>
+    <div class="lower">
+        <span class="title">{{model.title}}</span>
+        <span class="subtitle">{{model.subtitle}}</span>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+{"version":3,"file":"multiple-card.component.d.ts","sources":["multiple-card.component.d.ts"],"names":[],"mappings":"AAAA;AACA;;AACA;AACA;;;AACA","sourcesContent":["import { CardModel } from '../../../models/card-model';\nimport { BaseCard } from '../base-card';\nexport declare class MultipleCardComponent implements BaseCard {\n    model: CardModel;\n}\n"]}

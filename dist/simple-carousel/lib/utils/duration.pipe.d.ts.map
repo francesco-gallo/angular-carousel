@@ -1,0 +1,1 @@
+{"version":3,"file":"duration.pipe.d.ts","sources":["duration.pipe.d.ts"],"names":[],"mappings":"AAAA;;AACA;AACA;;;AACA","sourcesContent":["import { PipeTransform } from '@angular/core';\nexport declare class DurationPipe implements PipeTransform {\n    transform(value: number): string;\n}\n"]}

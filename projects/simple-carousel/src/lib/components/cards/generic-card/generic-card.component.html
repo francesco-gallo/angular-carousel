@@ -1,0 +1,11 @@
+<div class="outer-card">
+    <div class="card">
+        <ng-container *ngIf="model$ | async as model; else placeholderBlock">
+            <lib-single-card *ngIf="model.cardinality==='single'" [model]="model"></lib-single-card>
+            <lib-multiple-card *ngIf="model.cardinality==='collection'" [model]="model"></lib-multiple-card>
+        </ng-container>
+        <ng-template #placeholderBlock>
+            <lib-placeholder-card></lib-placeholder-card>
+        </ng-template>
+    </div>
+</div>
