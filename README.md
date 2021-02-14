@@ -1,6 +1,6 @@
 # AngularCarousel
 
-[![Demo](https://j.gifs.com/GvD8nr.gif)](https://j.gifs.com/K10QXl.gif)
+[![Demo](https://j.gifs.com/GvD8nr.gif)](https://j.gifs.com/K10QXl.gif)  
 (Click the video to get a higher resolution demo)
 
 This project showcases the usage of the simple-carousel library, loading random images from the internet.
