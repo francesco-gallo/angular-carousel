@@ -1,5 +1,7 @@
 # AngularCarousel
 
+[![Demo](https://j.gifs.com/GvD8nr.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+
 This project showcases the usage of the simple-carousel library, loading random images from the internet.
 
 ## Usage
